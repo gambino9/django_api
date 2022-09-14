@@ -4,6 +4,7 @@ A small API project for a technical test, using Django and Django Rest Framework
 This is my very first API and first Django project, hence maybe not the best way to implement things with Django.
 
 ### Installation
+_The following commands will work with a Linux environment._ 
 
 Consider using a virtual environment before cloning the repo : 
 ```
