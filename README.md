@@ -8,7 +8,7 @@ _The following commands will work with a Linux environment._
 
 Consider using a virtual environment before cloning the repo : 
 ```
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 ```
 
@@ -53,7 +53,7 @@ Vary: Accept
 ```
 
 ### Code explanation
-The CSV file used to get the network coverage measure is located in the [resources file](resources)
+The CSV file used to get the network coverage measure is located in the [resources directory](resources)
 
 The Django Rest Framework API comes into a single View class in the [apis/views.py file](apis/views.py) 
 
@@ -73,6 +73,6 @@ Scipy documentation for KD tree implementation :
 
 ### Possible ways to improve the project :
 
-- Load CSV only once, when the server is run
+- Load CSV and KD Tree only once, when the server is started up
 - Better error management
-- A more complex API
+- A more refined API
